@@ -53,17 +53,17 @@ From this paper:
 
 After cloning the repo you can quickly run with the following:
 ```sh
-python travesty.py -- sample.txt
+python3 travesty.py -- sample.txt
 ```
 
 If you want to run with debugging on try the following:
 ```sh
-python travesty.py -b 1000 -o 200 -d sample.txt
+python3 travesty.py -b 1000 -o 200 -d sample.txt
 ```
 
 ## Application Usage
 
-Display usage message with `cargo run -- --help`
+Display usage message with `python3 travesty.py --help`
 
 ```
 usage: travesty.py [-h] [-p [pattern_length]] [-b [buffer_size]]
