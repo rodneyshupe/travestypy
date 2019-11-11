@@ -1,7 +1,7 @@
-# Travesty in Rust lang
+# Travesty in Python
 
-A simple project for me to learn Rust Lang.  This analyzes input text and then
-randomly generates text output based on the pattern probability.
+This analyzes input text and then randomly generates text output based on the
+pattern probability.
 
 My first exposure to this algorithm was via a Pascal version published in
 [BYTE November 1984](https://www.scribd.com/doc/99613420/Travesty-in-Byte)
@@ -53,12 +53,12 @@ From this paper:
 
 After cloning the repo you can quickly run with the following:
 ```sh
-cargo run -- sample.txt
+python travesty.py -- sample.txt
 ```
 
 If you want to run with debugging on try the following:
 ```sh
-RUST_BACKTRACE=1 cargo run -- -a 1000 -o 200 -d sample.txt
+python travesty.py -b 1000 -o 200 -d sample.txt
 ```
 
 ## Application Usage
