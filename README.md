@@ -53,12 +53,12 @@ From this paper:
 
 After cloning the repo you can quickly run with the following:
 ```sh
-cargo run -- sample.txt
+python travesty.py -- sample.txt
 ```
 
 If you want to run with debugging on try the following:
 ```sh
-RUST_BACKTRACE=1 cargo run -- -a 1000 -o 200 -d sample.txt
+python travesty.py -- -b 1000 -o 200 -d sample.txt
 ```
 
 ## Application Usage
